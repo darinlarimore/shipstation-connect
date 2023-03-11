@@ -439,7 +439,7 @@ class Xml extends Component
         if (!is_null($address)) {
             $address_mapping = [
                 'Company' => 'organization',
-                //'Phone' => 'phone',
+                'Phone' => 'phoneNumber',
                 'Address1' => 'addressLine1',
                 'Address2' => 'addressLine2',
                 'City' => 'locality',
